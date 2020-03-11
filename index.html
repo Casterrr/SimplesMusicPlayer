@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicPlayer</title>
+
+    <link rel="stylesheet" href="_styles/styles.css"/>
+</head>
+<body>
+    <!-- <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+    </div> -->
+    <div class="MusicPlayer">
+        <header>
+            <img src="_images/Alan Walker - Alone.jpg" alt="Music Image" id="imagem">
+        </header>
+        <main>
+            <ul>
+                <button class="music selected" id="1" onclick="handle(1)">Alan Walker - Alone</button>
+                <button class="music" id="2" onclick="handle(2)">Alan Walker - Darkside (feat. Au Ra and Tomine Harket)</button>
+                <button class="music" id="3" onclick="handle(3)">Courtesy Call - 1.25</button>
+                <button class="music" id="4" onclick="handle(4)">Direct & Park Avenue - I Will Go [Monstercat EP Release]</button>
+                <button class="music" id="5" onclick="handle(5)">Duumu - Blinded [Monstercat EP Release]</button>
+                <button class="music" id="6" onclick="handle(6)">Grant - Color (feat. Juneau)</button>
+                <button class="music" id="7" onclick="handle(7)">Kero Kero Bonito - Flamingo</button>
+                <button class="music" id="8" onclick="handle(8)">Last Game - English Cover - Steins;Gate 0 ED</button>
+            </ul>
+        </main>
+        <footer>
+            <audio controls id="audio">
+                <source src="_musics/Alan Walker - Alone.mp3">
+            </audio>
+        </footer>
+    </div>
+
+    <script lang="javascript" src="_scripts/index.js"></script>
+</body>
+</html>
